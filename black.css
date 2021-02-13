@@ -1,0 +1,28 @@
+.both{
+    display: flex;
+}
+.Y{
+    width: 60%;
+}
+.D{
+    width: 40%;
+}
+.img{
+    height: 100px;
+}
+
+.both img{
+    width: 50px;
+    padding: 10px;
+}
+
+.butwin button{
+    height: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.winn{
+    font-size: 20px;
+}

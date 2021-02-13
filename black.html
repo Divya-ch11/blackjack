@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="black.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Blackjack</h1>
+    <div class="butwin">
+        <button id="win" class="winn"></button>
+    </div>
+    <h3 id="play" onclick="plays()">Let's Play</h3>
+    <div class="both">
+        <div class="Y" id="Y-box">
+            <h2>You: <span id='Y-result'>0</span></h2>
+        </div>
+        <div class='D' id='D-box'>
+            <h2>Dealer: <span id='D-result'>0</span></h2>
+        </div>
+    </div>
+    
+    <div>
+        <button onclick="hitme()">Hit</button>
+        <button onclick="result()">Result</button>
+        <button onclick="blackjackdeal()">Delete</button>
+    </div>
+    <br>
+    <div>
+        <table style="border:1px solid black;">
+            <tr>
+                <th>YouScore</th>
+                <th>DealerScore</th>
+                <th>Draws</th>
+            </tr>
+            <tr>
+                <td id="w">0</td>
+                <td id="l">0</td>
+                <td id="d">0</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <script src="black.js"></script>
+    
+</body>
+</html>
